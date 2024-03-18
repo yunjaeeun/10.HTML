@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>납품자 정보</legend><br>
+            <ol>
+                <li><label>납품자명 : </label><input type="text" placeholder="name"></li><br>
+                <li><label>email : </label><input type="url" placeholder="answs@naver.com"></li><br>
+                <li><label>홈페이지 : </label><input type="email" placeholder="http://"></li><br>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>납품 정보</legend><br>
+            <ul>
+                <li><label>상품명 : </label><input type="text"></li><br>
+                <li><label>납품 수량 : </label><input type="number" name="amout" min="100" placeholder="최소100"></li><br>
+                <li><label>납품등급 : </label><input type="range" name="point" min="100"></li><br>
+                <li><label>기타사항 : </label><textarea name="textarea"rows="2"></textarea></li><br>
+            </ul>
+        </fieldset>
+        <br>
+        <button type="submit">send message</button>
+    </form>
+</body>
+</html>
